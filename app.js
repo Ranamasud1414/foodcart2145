@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import { dbConnection } from "./database/dbConnection.js";
 import { errorMiddleware } from "./error/error.js";
 import resevationrouter from "./routes/resevationroutes.js";
-import path from "path";
+// import path from "path";
 
 const app = express();
 dotenv.config({ path: "./config/config.env" });
